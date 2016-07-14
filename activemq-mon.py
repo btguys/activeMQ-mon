@@ -5,11 +5,9 @@ __author__ = 'qiuyongjie'
 
 import string,xml.dom.minidom,sys, urllib2, base64, json, time,socket
 
-
-step = 60
-#ip = socket.gethostname()
 ip = "127.0.0.1"
-endpoint = "define hostname"
+endpoint = socket.gethostname()
+step = 60
 ts = int(time.time())
 tag = ''
 keys = ('size','consumerCount','enqueueCount','dequeueCount')
