@@ -3,7 +3,7 @@
 
 __author__ = 'qiuyongjie'
 
-import string,xml.dom.minidom,sys, urllib2, base64, json, time,socket
+import string, xml.dom.minidom, sys, urllib2, base64, json, time, socket
 
 ip = "127.0.0.1"
 endpoint = socket.gethostname()
